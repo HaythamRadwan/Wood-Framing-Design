@@ -255,6 +255,7 @@ body {
     width: 50%;
     height: 80px;
     margin-top: 10px;
+    padding-right: 5px;
 }
 
 .contact form button {
