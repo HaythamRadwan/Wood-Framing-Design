@@ -214,6 +214,37 @@ body {
     line-height: 1.6;
 }
 
+.contact {
+    
+}
+
+.contact form {
+  position: relative;
+  width: 60%;
+  height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 50px auto;
+  margin-bottom: 150px;
+}
+
+.contact form input {
+  width: 40%;
+  height: 25px;
+  margin: 0 30px 0px 0px;
+  padding-left: 10px;
+  border: none;
+  display: inline-block;
+  background-color: aquamarine;
+}
+
+.contact form label {
+  display: block;
+  width: 50%;
+  margin: 6px 0px;
+  background-color: burlywood;
+}
+
 .in-responsive {
     /*display: none;*/
 }
@@ -274,7 +305,7 @@ body {
 
             /*Small Mobile Screens*/
 
-
+/*
 @media (min-width: 0px) and (max-width: 579px) {
 
 #overlay {
@@ -322,7 +353,6 @@ body {
     height: 300px;
     margin-top: 80px;
     margin-left: 5%;
-    /*margin-right: 5%;*/
     z-index: 3;
 }
 
@@ -370,13 +400,13 @@ body {
 
 .container .about p:last-child a:hover {
     text-decoration: none;
-}
+}*/
 
 .container .portfolio {
     /*margin-left: 10%;*/
     /*margin-right: 13%;*/
 }
-
+/*
 .container .portfolio .folio-container {
     width: 240px;
     height: 270px;
@@ -453,7 +483,7 @@ body {
 
 
         /* Mobile Screens */
-
+/*
 @media (min-width: 580px) and (max-width: 767px) {
 .container {
     background-color: #f2f2f2;
@@ -473,7 +503,6 @@ body {
     position: absolute;
     width: 420px;
     height: 300px;
-    /*right: 100px;*/
     margin-top: 80px;
     z-index: 3;
 }
@@ -484,7 +513,6 @@ body {
     height: 400px;
     color: rgb(255, 255, 255);
     background-color: #1c2d46;
-    /*margin-left: ;*/
     bottom: -320px;
     padding: 40px 30px;
     display: flex;
@@ -526,17 +554,16 @@ body {
 
 .container .portfolio {
     margin-left: 10%;
-    /*margin-right: 13%;*/
 }
 
 .container .portfolio .folio-container {
-    width: 240px; /*270px*/
-    height: 270px; /*300px*/
+    width: 240px;
+    height: 270px;
     background-color: white;
     position: relative;
     margin-left: 10px;
     margin-bottom: 10px;
-    padding: 18px 30px 12px 22px;   /*20px 35px 15px 25px*/
+    padding: 18px 30px 12px 22px;
     bottom: -10px;
     z-index: 10;
 }
@@ -573,7 +600,7 @@ body {
 }
 
 }
-           
+    */     
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Make a Landing Page">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
         <title>Make a Landing Page</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="print.css" media="print"/>
@@ -90,8 +91,22 @@
             </div> <!--./container-->
 
                     <!-- End Container -->
-
-            <div class="in-responsive"></div>
+            
+            <div class="contact">
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+                    <input type="hidden" name="_subject" value="New E-Mail!" class="sub-formsubmit">                  
+                    <label>Name</label>
+                    <input type="text" name="name" required>
+                    <label>Email Address</label>
+                    <input type="email" name="email" required>
+                    <textarea placeholder="Enter Your Message" class="Message inp"></textarea>
+                    <button type="submit">Send</button>
+                    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    <button type="submit">Send Email</button>
+                </form>
+            </div>
+            
+            <!--<div class="in-responsive"></div>-->
                     <!-- Footer -->
             
             <div class="footer">
